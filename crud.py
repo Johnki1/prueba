@@ -1,7 +1,7 @@
 
 import json
 from datetime import datetime
-from db_connection import get_database, set_database
+from db_conecction import get_database, set_database
 
 def crear_base_de_datos():
     nombre_db = input("Ingrese el nombre de la base de datos: ")
