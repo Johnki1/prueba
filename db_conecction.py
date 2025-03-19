@@ -3,7 +3,7 @@ from pymongo import MongoClient
 client = MongoClient("mongodb://mongo:miOOkXpHHVMfhXpmbosXNPOuaimLGUCy@mongodb.railway.internal:27017")
 
 
-db = client.TallerMongoDB
+db = client.mongodb
 
 def set_database(nombre_db: str):
     global db
